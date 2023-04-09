@@ -1,0 +1,18 @@
+#main_header_container {
+	position: absolute;
+	top: 70px;
+	left: 0;
+	z-index: 1;
+	padding: 80px;
+}
+
+#main_header::after {
+	width: 100%;
+	position: absolute;
+	background: #bed0d4;
+	top: 0;
+	height: 804px;
+	content: "";
+	left: 0;
+	clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+}
