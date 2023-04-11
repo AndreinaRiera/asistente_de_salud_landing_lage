@@ -1,4 +1,4 @@
-import { Components, CSSInterpolation, ThemeOptions } from "@mui/material";
+import { CSSInterpolation, Components, ThemeOptions } from "@mui/material";
 
 type Sizes = "small" | "medium" | undefined;
 type Palettes = "primary" | "secondary";
@@ -35,16 +35,18 @@ interface Theme extends ThemeOptions {
 //https://mui.com/material-ui/customization/default-theme/
 const theme: Theme = {
 	palette: themePalette,
+	spacing: [0, 25, 42, 16, 32, 64],
 	typography: {
 		fontFamily: `Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
 		Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
 		"Segoe UI Emoji", "Segoe UI Symbol"`,
 		h1: {
-			fontSize: "2rem",
+			fontSize: "3rem",
 			fontWeight: "bold",
 		},
 		h2: {
-			fontSize: "1.2rem",
+			fontSize: "2.5rem",
+			fontFamily: `'Roboto', sans-serif`,
 		},
 		h3: {
 			fontSize: "1.1rem",
@@ -56,13 +58,19 @@ const theme: Theme = {
 			fontSize: "0.9rem",
 		},
 		body1: {
-			fontSize: "0.9rem",
+			fontSize: "1.8rem",
+			fontFamily: `'Roboto', sans-serif`,
 		},
 		allVariants: {
 			color: "#252525",
 		},
 	},
 	components: {
+		MuiContainer: {
+			defaultProps: {
+				maxWidth: "xl",
+			},
+		},
 		MuiTypography: {
 			defaultProps: {
 				//https://mui.com/material-ui/react-typography/

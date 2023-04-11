@@ -6,6 +6,11 @@
 	padding: 80px;
 }
 
+#main_header {
+	height: 700px;
+}
+
+/* TODO: mejorar esto para usar el tema de mui */
 #main_header::after {
 	width: 100%;
 	position: absolute;

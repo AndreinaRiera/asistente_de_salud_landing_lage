@@ -11,14 +11,13 @@ function Header() {
 					marginTop: "-1px",
 				}}
 				id={main_header.main_header}
-				/* id="main_header" */
 			>
 				<Grid container id={main_header.main_header_container}>
 					<Grid item xs={12} md alignItems={"center"} display={"flex"}>
 						<Typography
 							variant="h1"
 							component="h1"
-							sx={{ fontSize: "5rem" }}
+							sx={{ fontSize: "6rem", mb: "30px" }}
 							maxWidth={"900px"}
 						>
 							¡Toma el control de la gestión de tu salud!
