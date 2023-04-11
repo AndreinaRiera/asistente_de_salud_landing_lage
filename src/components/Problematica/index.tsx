@@ -36,7 +36,7 @@ function Problematica({}: Props) {
 						</Typography>
 						<Typography variant="body1" component="p" mt={1}>
 							Si no lo sabes con certeza, no te preocupes. No te pasa solo a ti.
-							Sabemos lo difícil que es. ¡Pero puede ser más fácil!
+							Sabemos lo difícil que es. <br /> ¡Pero puede ser más fácil!
 						</Typography>
 					</Grid>
 				</Grid>

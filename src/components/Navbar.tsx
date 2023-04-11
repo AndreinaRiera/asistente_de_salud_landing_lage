@@ -34,8 +34,8 @@ function Navbar() {
 					Asistente de salud
 				</Typography>
 
-				<ButtonNavbar>Beneficios</ButtonNavbar>
-				<ButtonNavbar variant="outlined">
+				<ButtonNavbar href="#Beneficios">Beneficios</ButtonNavbar>
+				<ButtonNavbar href="#Newsletter" variant="outlined">
 					{/* Newsletter */} Contactos
 				</ButtonNavbar>
 			</Toolbar>

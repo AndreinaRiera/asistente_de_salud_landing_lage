@@ -5,7 +5,7 @@ type Palettes = "primary" | "secondary";
 
 const themePalette = {
 	primary: {
-		light: "#757ce8",
+		light: "#E0EBED",
 		main: "#BED0D4",
 		dark: "#6b9199",
 		contrastText: "#ffffff",
@@ -35,7 +35,7 @@ interface Theme extends ThemeOptions {
 //https://mui.com/material-ui/customization/default-theme/
 const theme: Theme = {
 	palette: themePalette,
-	spacing: [0, 25, 42, 16, 32, 64],
+	spacing: [0, 25, 42, 55, 70, 85],
 	typography: {
 		fontFamily: `Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
 		Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
@@ -58,7 +58,7 @@ const theme: Theme = {
 			fontSize: "0.9rem",
 		},
 		body1: {
-			fontSize: "1.8rem",
+			fontSize: "1.6rem",
 			fontFamily: `'Roboto', sans-serif`,
 		},
 		allVariants: {
